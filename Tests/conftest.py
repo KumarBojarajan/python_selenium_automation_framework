@@ -52,4 +52,4 @@ def init_driver(request, getBrowser):
     
     yield
     # TEST TEARDOWN STEPS
-    driver.close()
+    driver.quit()
